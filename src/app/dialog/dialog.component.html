@@ -1,0 +1,28 @@
+
+<h2 mat-dialog-title>Add Hotel Detail</h2>
+<mat-dialog-content>
+  <form class="example-form">
+    <mat-form-field class="example-full-width">
+      <input matInput [(ngModel)]="hotelInput.name" placeholder="Hotel Name" name="name">
+    </mat-form-field>
+
+    <label>Hotel Category : </label>
+    <mat-radio-group  class="example-radio-group" [(ngModel)]="hotelInput.category" name="category">
+      <mat-radio-button class="example-radio-button" [value]="1">Resort</mat-radio-button>
+      <mat-radio-button class="example-radio-button" [value]="0">Luxuries Hotel</mat-radio-button>
+    </mat-radio-group>
+
+    <mat-form-field class="example-full-width">
+        <textarea matInput [(ngModel)]="hotelInput.description" placeholder="Hotel Description" name="description"></textarea>
+    </mat-form-field>
+  </form>
+ </mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-raised-button (click)="onYesClick()">Yes</button>
+  <button mat-raised-button (click)="onNoClick()">close</button>
+</mat-dialog-actions>
+
+
+
+
+  

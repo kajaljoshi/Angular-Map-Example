@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.mat-dialog-container {
+    z-index: 5000000;
+    position: relative;
+    background-color: beige;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  .example-radio-group {
+    display: inline-flex;
+    flex-direction: row;
+  }
+  
+  .example-radio-button {
+    margin: 5px;
+  }
