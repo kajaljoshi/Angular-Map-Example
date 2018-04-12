@@ -10,6 +10,14 @@ Functionalities :
 3) Custom control on map which states category description of hotel and its relevent marker icon
 
 Here is images of each functionality :
+####                     Custom control & Hotels displayed on Map
+![alt text](Markers&CustomControl.png "Custom control & Hotels displayed on Map")
+
+####                       After double click on Map,Popup Dialog to add hotel
+![alt text](AddHotel.png "After double click on Map,Popup Dialog to add hotel")
+
+####                        Information of Hotel on click of Marker
+![alt text](InfoWindow.png "Information of Hotel on click of Marker")
 
 
 To run Demo, clone the repository. and follow below steps :
