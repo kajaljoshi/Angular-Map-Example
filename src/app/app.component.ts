@@ -91,7 +91,7 @@ export class AppComponent {
     '</div>'+
     '<h3 id="firstHeading" class="firstHeading">'+this.hotlMarkerInfo.name+'</h3>'+
     '<div id="bodyContent">'+
-    '<br/><b>Category : </b> '+ this.hotlMarkerInfo.category == "1" ? 'Resort' : 'Luxuries Hotel' + '<br/><hr/>' +
+    '<hr/>' +
     '<p><b>Description : </b> '+ this.hotlMarkerInfo.description
     '</p></div></div>';
   
